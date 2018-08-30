@@ -21,7 +21,7 @@ class HomePage extends React.Component {
                     <div className="name-label">{user.firstName} {user.lastName}</div>
                     <label className="separator"> | </label>
                      <Link to="/login" className="logout-label">Logout</Link>
-                     <i class="fa fa-sign-out-alt logout-icon"></i>
+                     <i className="fa fa-sign-out-alt logout-icon"></i>
                 </div>
                 <div className="dashboard-container full-height">
                     <div className="title-container full-width">Play to learn !</div>
@@ -34,7 +34,7 @@ class HomePage extends React.Component {
                     </div>
                 </div>
                 <div className="footer-container">
-                    <i class="fa fa-copyright"></i>
+                    <i className="fa fa-copyright"></i>
                     <label>2018 - Play to learn - All rights reserved</label>
                 </div>
             </div>

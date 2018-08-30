@@ -43,7 +43,7 @@ class LoginPage extends React.Component {
         return (
             <div className="container-login">
                 <div className="login-title-container">
-                    <i class="fa fa-lock login-icon"></i>
+                    <i className="fa fa-lock login-icon"></i>
                 </div>
                 <form name="form" onSubmit={this.handleSubmit}>
                     <div className={'form-group' + (submitted && !username ? ' has-error' : '')}>

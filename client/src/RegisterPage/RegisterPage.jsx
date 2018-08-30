@@ -50,7 +50,7 @@ class RegisterPage extends React.Component {
         return (
             <div className="container-login">
                  <div className="login-title-container">
-                 <i class="fa fa-user-plus login-icon"></i>
+                 <i className="fa fa-user-plus login-icon"></i>
                 </div>
                 <form name="form" onSubmit={this.handleSubmit}>
                     <div className={'form-group' + (submitted && !user.firstName ? ' has-error' : '')}>
