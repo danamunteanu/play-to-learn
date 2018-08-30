@@ -11,7 +11,7 @@ const LevelCounter = ({ currentLevel, showTooltip, levels, prev, next, goToLevel
         <span className='current'>{(currentLevel || 0) + 1}</span>
         <span id='labelOf' className='translate'> of </span>
         <span className='total'>{levelsNo}</span>
-        <span className='caret'>▾</span>
+        <span className='caret-level'>▾</span>
       </span>
       <button className='arrow right' onClick={next} disabled={currentLevel + 1 >= levelsNo}>▶</button>
       {showTooltip && <div tabIndex='0' id='levelsWrapper' className='tooltip-eridani'>
