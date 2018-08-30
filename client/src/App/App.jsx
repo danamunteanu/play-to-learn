@@ -34,7 +34,7 @@ class App extends React.Component {
                         <Router history={history}>
                             <div className="full-height">
                                 <PrivateRoute exact path="/" component={HomePage} />
-                                <Route path="/eridani-wars-css-grid" render={(props) => <GameScreenPage levels={levels} levelWin={levelWin} docs={docs} { ...props }/>} />
+                                <PrivateRoute path="/eridani-wars-css-grid" component={(props) => <GameScreenPage levels={levels} levelWin={levelWin} docs={docs} { ...props }/>} />
                                 <Route path="/login" component={LoginPage} />
                                 <Route path="/register" component={RegisterPage} />
                               </div>
